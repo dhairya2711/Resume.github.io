@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <style>
+            header span{
+                background-color: aqua;
+                margin: 0px;
+                padding: 20px 30px;
+                border-radius: 10px;
+                
+            }
+            header{
+                text-align: right;
+            }
+            #grid{
+                display:grid;
+                grid-template-columns: 50% 50%;
+                grid-gap: 50px;
+            }
+            .img{
+                height:20px;
+                width:0%;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <title>Dhairya's Resume</title>
+    </head>
+    <body>
+        <div id="Resume">
+            <header class="header">
+                <span id="about">About me</span>
+                <span id="cl">Languages</span>
+                <span id="education">Education</span>
+                <span id="experience">Experience</span>
+                <span id="projects">Projects</span>
+                <span id="content">Contect info</span>
+            </header>
+            <h1 id="name">Dhairya Soni</h1>
+            
+                <div id="aboutmediv">
+                    <h2 id="h2aboutme">About me</h2>
+                    <div id="grid">
+                    <div id="text">
+                        <p class="para 1">A modern and innovative software developer who loves spending much of his time crafting web and mobile applications to solve problems, which are not peace of cake to solve for others. 
+                            With some knowledge of full stack web development from Mohawk College and 6+ months of experience in the tech industry, I promise to deliver the
+                            best quality of work in a reasonable amount of time.</p>
+                        <p class="para 2">Prior to 2019, I focused on front end web development to bring the best experience to your users. As I have mostly worked on the front end side,
+                            I am familiar with using HTML5, CSS and JavaScript to bring the best interactive experience to users. </p>
+                        <p class="para 3">The increased demand for a know-all web developer has driven up my motivation to work on relational and non-relational databases, 
+                            and PHP. As such, I have come to know about full stack web development and worked on many gaming projects. </p>
+                        <p class="para 4">
+                            Besides this, my set of projects also sees C# applications, the most complex and latest of which is Cash Register. I am developing this app to gain more knowledge about programming languages. 
+                        </p>
+                    </div>
+                    <div id="rateimg">
+                        <h3>JavaScript</h3>
+                        <img id="i" class="img js" src="Images/jsratio.png">
+                        <h3>PHP</h3>
+                        <img id="i" class="img php" src="Images/phpratio.png">
+                        <h3>Java</h3>
+                        <img id="i" class="img java" src="Images/javaratio.png">
+                        <h3>C#</h3>
+                        <img id="i" class="img cs" src="Images/csratio.png">
+                        <h3>MYSQL</h3>
+                        <img id="i" class="img sql" src="Images/sqlratio.png">
+                    </div>
+                </div>
+                </div>
+            <div id="languagesdiv">
+                <h2 id="h2lan">Familiar languages</h2>
+                <ul id="lanlist">
+                    <li>Operating System: Linux, Windows 7, 8.1 and 10</li>
+                    <li>Desktop Programming Languages: Java, C#, Python and C Language</li>
+                    <li>Database: MS Access and MySql</li>  
+                    <li>IDE: Visual Studio 2019, NetBeans 8.1, INTELLIJ IDEA and MS SQL Server</li>
+                    <li>Web Programming Languages: HTML5, CSS3, JavaScript and PHP</li>
+                </ul>
+            </div>
+            <div id="educationdiv">
+                <h2 id="h2edu">Education</h2>
+                <ul id="edulist">
+                    <li>Computer Systems Technoligy - Software Development <span style="margin-left: 5em;">January 2019 - Present</span>
+                        <br>Mohawk College <span id="liinnerspan">(Completion December 2022)</span>
+                        <ul>
+                            <li id="innerli21">Program Includes: Python Fundamentals, HTML5 and CSS, Introduction to Networking, 
+                                Mathematics for Computer Science, Programming in Java, Database management, C#, JavaScript, PHP, Front end web programming and Server Platform and Networking.
+                            </li>
+                            <li id="innerli22">Achieved 100% in Mathematics</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="experience">
+                <h2 id="h2exp">Experience</h2>
+                <span id="webexp">
+                    Web Developer &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; March 2018 - October 2018<br>
+                    ACT Computer classes, Ahmedabad, India
+                    <ul>
+                        <li>Familiar with JavaScript framework and libraries that support efficient web development</li>
+                        <li>Filled in as a Web Developer and Web Designer with ACT bunch by utilizing JavaScript and PHP</li>
+                        <li>Helped to upgrade the ACT page and give the layouts and improvement by utilizing CSS and JavaScript.</li>
+                        <li>Knowledge with handling database and creating query via SQL</li>
+                        <li>A positive attitude, with an excellent sense of ownership and creating initiatives</li>
+                    </ul>
+                </span>
+                <span id="Subwayexp">
+                    Sandwich Artist&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; January 2019 - Present<br>
+                    Subway, Hamilton ON
+                    <ul>
+                        <li>Bake, process and prepare menu items according to specifications</li>
+                        <li>Process cash, credit and debit transactions and generate daily shift reports</li>
+                        <li>Knowledge of Subway software to facilitate price, menu and report generation</li>
+                        <li>Maintain a clean and organized work area to offer satisfied customer service.</li>
+                    </ul>
+                </span>
+            </div>
+            <div id="Projects">
+                <h2 id="h2pro">Projects</h2>
+                <h3>JavaScript Projects</h3>
+                <img src="data:image/png;base64,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" id="jsimg">
+                <h3>Java Projects</h3>
+                <img src="data:image/png;base64,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" id="javaimg">
+                <h3>C# Projects</h3>
+                <img src="https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png" id="csimg">
+                <p>Would you like to play tic tac to?</p>
+                <a href="https://dhairya2711.github.io/playgame.github.io/">Click here</a>
+            </div>
+            <div id="Contect">
+                <h2 id="h2con">Contect Me</h2>
+                <p><strong>No.: </strong>(437) 240 5686</p>
+                <p><strong>Email: </strong>dsdrago27@gmail.com</p>
+            </div>
+        </div>
+        <script>
+            window.onload = function(){
+                $('header').hide();
+                $('#name').css("font-size","3px")
+                $('header').slideDown(1000);
+                $('#name').animate({fontSize:"30px"},1000);
+            };
+            $('#text').fadeOut(0).fadeIn(1000);
+            $('.img').animate({width:"90%"},1000);
+        </script>
+    </body>
+</html>
