@@ -14,7 +14,7 @@
                 background-size:100vw 100vh;
                 background-attachment: fixed;
             }
-            header{
+            header a{
                 text-align: right;
                 color:white;
             }
