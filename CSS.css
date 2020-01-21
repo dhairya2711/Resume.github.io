@@ -4,6 +4,7 @@
                 margin: 0px;
                 padding: 20px 30px;
                 border-radius: 10px;
+                        text-align: right;
             }
             
             body{
@@ -51,6 +52,5 @@
             }
                 .link{
                         color:white;
-                        text-align: right;
                 }
 }
