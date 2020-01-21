@@ -1,6 +1,6 @@
         @media only screen and (min-width: 600px){
             header span{
-                background-color: aqua;
+                background-color: gray;
                 margin: 0px;
                 padding: 20px 30px;
                 border-radius: 10px;
@@ -14,10 +14,7 @@
                 background-size:100vw 100vh;
                 background-attachment: fixed;
             }
-            header a{
-                text-align: right;
-                color:white;
-            }
+            
             #experiencediv{
                 height:0px;
                 padding:0px;
@@ -54,5 +51,6 @@
             }
                 .link{
                         color:white;
+                        text-align: right;
                 }
 }
