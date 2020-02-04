@@ -5,6 +5,7 @@
                 padding: 20px 30px;
                 border-radius: 10px;
                 text-align: right;   
+                float: right;
             }
             
             body{
